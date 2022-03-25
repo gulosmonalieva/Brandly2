@@ -9,17 +9,17 @@
     justify-content: center;
     align-items: center;
     min-height: 419px;
-    background-image: url(/img/cat-men.jpg);
+    background-image: url(../img/cat-men.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     &--women {
-      background-image: url(/img/cat-women.jpg);
+      background-image: url(../img/cat-women.jpg);
     }
 
     &--accessories {
-      background-image: url(/img/cat-accessories.jpg);
+      background-image: url(../img/cat-accessories.jpg);
     }
   }
 

@@ -128,16 +128,16 @@ body {
       -ms-flex-align: center;
           align-items: center;
   min-height: 419px;
-  background-image: url(/img/cat-men.jpg);
+  background-image: url(../img/cat-men.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .cat__item--women {
-  background-image: url(/img/cat-women.jpg);
+  background-image: url(../img/cat-women.jpg);
 }
 .cat__item--accessories {
-  background-image: url(/img/cat-accessories.jpg);
+  background-image: url(../img/cat-accessories.jpg);
 }
 .cat__item {
   margin: 0;
@@ -263,7 +263,7 @@ body {
 .footer {
   min-height: 157px;
   padding-top: 65px;
-  background-image: url(/img/footer.jpg);
+  background-image: url(../img/footer.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
