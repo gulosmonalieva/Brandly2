@@ -1,0 +1,36 @@
+@import "vars";
+
+.header {
+  padding: 16px 0;
+
+  &__logo {
+    display: inline-block;
+    max-width: 255px;
+  }
+  &__logo-img {
+    max-width: 100%;
+  }
+  &__nav-item + &__nav-item {
+    padding-left: 40px;
+  }
+  &__nav-link {
+    color: $accent;
+    transition: all 0.3s;
+
+    &:hover {
+      color: lighten($accent, 30%);
+    }
+  }
+  &__nav-toggler {
+    border: 1px solid $accent;
+    padding-top: 8px;
+
+    &:focus {
+      box-shadow: none;
+    }
+
+    path {
+      fill: $accent;
+    }
+  }
+}
